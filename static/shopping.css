@@ -31,59 +31,64 @@ a:hover {
     justify-content: space-around;
 }
 
-section{
+section {
     background: #c9a242;
-    height: 550px;
+    height: 950px;
 }
-.icon img{
+
+.icon img {
     width: 500px;
     height: 500px;
 }
-.icon2 img{
+
+.icon2 img {
     width: 300px;
 }
-.icon2 img:hover{
+
+.icon2 img:hover {
     animation-name: run;
     animation-duration: 2s;
     animation-timing-function: linear;
     animation-iteration-count: 1;
 }
-.icon2{
+
+.icon2 {
     display: flex;
     flex-direction: column;
 }
 
-.bigdiv{
+.bigdiv {
     display: flex;
     align-items: center;
     justify-content: space-around;
 }
+
 @keyframes run {
-    0%{
+    0% {
         transform: rotate(0deg);
     }
-    12.5%{
+    12.5% {
         transform: rotate(45deg);
     }
-    25%{
+    25% {
         transform: rotate(90deg);
     }
-    37.5%{
+    37.5% {
         transform: rotate(135deg);
     }
-    50%{
+    50% {
         transform: rotate(180deg);
     }
-    62.5%{
+    62.5% {
         transform: rotate(225deg);
     }
-    75%{
+    75% {
         transform: rotate(270deg);
     }
-    87.5%{
+    87.5% {
         transform: rotate(315deg);
     }
-    100%{
+    100% {
         transform: rotate(360deg);
     }
 }
@@ -116,6 +121,7 @@ section{
     box-shadow: 3px 3px 3px 3px #52ead8;
     transition: 1s;
 }
+
 /*clothes*/
 .clothes_list {
     width: 100%;
@@ -145,6 +151,7 @@ section{
     box-shadow: 3px 3px 3px 3px #52ead8;
     transition: 1s;
 }
+
 /*techniques*/
 
 .techniques_list {
@@ -175,3 +182,112 @@ section{
     box-shadow: 3px 3px 3px 3px #52ead8;
     transition: 1s;
 }
+
+/*clothes*/
+
+.top_brands {
+    width: 1200px;
+    height: 400px;
+    background: darkgoldenrod;
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+}
+
+.top_brands h1 {
+    color: #e57e5f;
+    animation-name: margin;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes margin {
+    from {
+        margin-left: 1000px;
+        color: darkred;
+    }
+    to {
+        margin-left: 0;
+        color: darksalmon;
+    }
+}
+
+.c_l {
+    width: 100%;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.box1 {
+    width: 200px;
+    height: 300px;
+    background: #c9a242;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+    transition: 3s;
+    border-radius: 10px;
+}
+
+.boxes {
+    display: flex;
+    justify-content: space-around;
+}
+
+.box1 img {
+    position: absolute;
+    width: 150px;
+    height: 200px;
+    top: -600px;
+    border-radius: 10px;
+    transition: 1s;
+}
+
+.box1:hover.box1 img {
+    top: 0;
+    margin-top: 40px;
+    transition: 1s;
+}
+.box1 button{
+    width: 100px;
+    height: 30px;
+    background: darkgoldenrod;
+    margin-top: 170px;
+    position: absolute;
+    top: 600px;
+    border-radius: 15px;
+    border: none;
+    cursor: pointer;
+     transition: 1s;
+}
+.box1:hover.box1 button{
+    top: 80px;
+}
+button:hover{
+    width: 90px;
+    height: 20px;
+    padding: 5px;
+}
+.box1 h5{
+    color: darkred;
+    top: 0;
+    margin-left: 600px;
+    overflow: hidden;
+    transition: 3s;
+    position: absolute;
+}
+.box1:hover.box1 h5{
+    margin-left: 0;
+
+}
+
+
+
