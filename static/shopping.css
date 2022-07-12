@@ -99,3 +99,62 @@ a:hover {
     box-shadow: 3px 3px 3px 3px #52ead8;
     transition: 1s;
 }
+/*clothes*/
+.clothes_list {
+    width: 100%;
+    height: 1230px;
+    background-color: #3a3a3a;
+}
+
+.clothes_list_mini {
+    width: 1330px;
+    height: 1220px;
+    margin: 10px;
+    /*background-color: deepskyblue;*/
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.clothes_list_mini_box {
+    width: 250px;
+    height: 220px;
+    background-color: green;
+    margin: 41px;
+    transition: 1s;
+    border-radius: 20px;
+}
+
+.clothes_list_mini_box:hover {
+    box-shadow: 3px 3px 3px 3px #52ead8;
+    transition: 1s;
+}
+/*techniques*/
+
+.techniques_list {
+    width: 100%;
+    height: 1230px;
+    background-color: #3a3a3a;
+}
+
+.techniques_list_mini {
+    width: 1330px;
+    height: 1220px;
+    margin: 10px;
+    /*background-color: deepskyblue;*/
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.techniques_list_mini_box {
+    width: 250px;
+    height: 220px;
+    background-color: green;
+    margin: 41px;
+    transition: 1s;
+    border-radius: 20px;
+}
+
+.techniques_list_mini_box:hover {
+    box-shadow: 3px 3px 3px 3px #52ead8;
+    transition: 1s;
+}
