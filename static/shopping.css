@@ -10,7 +10,7 @@ button {
     backdrop-filter: blur(6px);
     width: 240px;
     height: 22px;
-    margin: 5px;
+
     margin-top: 158px;
     border: groove;
 }
@@ -70,16 +70,15 @@ section {
 
 .icon2 img {
     width: 300px;
-
-     animation-name: run;
-
-}
-
-.icon2 img:hover {
     animation-name: run;
     animation-duration: 2s;
     animation-timing-function: linear;
     animation-iteration-count: 1;
+
+}
+
+.icon2 img:hover {
+
 }
 
 
@@ -447,7 +446,9 @@ button:hover{
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
+    height: 800px;
+
 }
 
 .t_ch{
@@ -455,6 +456,7 @@ button:hover{
     height: 400px;
     background: #e57e5f;
     border-radius: 10px;
+    margin-top: 30px;
 }
 .v_r img{
     width: 30px;
@@ -486,6 +488,7 @@ button:hover{
     display: flex;
     justify-content: space-around;
 }
+
 .t_v h4{
     color: #3a3a3a;
 }
@@ -517,9 +520,10 @@ button:hover{
     top: 600px;
     transition: 1s;
     position: absolute;
+    border: none;
 }
 .v_1:hover.v_1 button{
-    top: 230px
+    top: 80px
 }
 
 
