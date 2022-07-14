@@ -283,3 +283,34 @@ section {
         transform: rotate(360deg);
     }
 }
+.techniques{
+    width: 1200px;
+    height: 400px;
+    background: darkgoldenrod;
+    position: relative;
+    overflow: hidden;
+}
+.big{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.from{
+    display: flex;
+    animation-name: top1;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+    overflow: hidden;
+}
+@keyframes top1 {
+    from{
+        margin-left: 1200px;
+        color: blueviolet;
+    }
+    to{
+        margin-left: 0;
+    }
+}
+
