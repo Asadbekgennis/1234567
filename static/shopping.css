@@ -4,6 +4,28 @@
     color: white;
 }
 
+button {
+    border-radius: 20px;
+    background-color: #5a5959;
+    backdrop-filter: blur(6px);
+    width: 100px;
+    height: 22px;
+    margin: 5px;
+    margin-top: 158px;
+    border: none;
+
+
+}
+
+.absolute_text {
+    text-align: center;
+}
+
+.absolute_text:hover {
+    color: black;
+    font-family: cursive;
+}
+
 header {
     width: 100%;
     height: 10vh;
@@ -18,12 +40,19 @@ h1 {
     padding: 1rem;
 }
 
+h1:hover {
+    color: black;
+    font-family: cursive;
+}
+
+
 a {
     text-decoration: none;
 }
 
 a:hover {
     color: black;
+    font-family: cursive;
 }
 
 .main {
@@ -43,11 +72,18 @@ section {
 
 .icon2 img {
     width: 300px;
+
      animation-name: run;
+
+}
+
+.icon2 img:hover {
+    animation-name: run;
     animation-duration: 2s;
     animation-timing-function: linear;
     animation-iteration-count: 1;
 }
+
 
 .icon2 img:hover {
 
@@ -94,10 +130,11 @@ section {
     }
 }
 
+
 .food_list {
     width: 100%;
     height: 1230px;
-    background-color: #3a3a3a;
+    background-color: #c9a242;
 }
 
 .food_list_mini {
@@ -123,6 +160,77 @@ section {
     transition: 1s;
 }
 
+
+.food_list_mini_box p {
+    text-align: center;
+}
+
+.food_list_mini_box:first-child {
+    background: url("https://images.pexels.com/photos/1653877/pexels-photo-1653877.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-size: cover;
+}
+.food_list_mini_box:nth-child(2) {
+    background: url("https://images.pexels.com/photos/4661985/pexels-photo-4661985.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-size: cover;
+}
+.food_list_mini_box:nth-child(3) {
+    background: url("https://images.pexels.com/photos/1351238/pexels-photo-1351238.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-size: cover;
+}
+.food_list_mini_box:nth-child(4) {
+    background: url("https://images.pexels.com/photos/1279330/pexels-photo-1279330.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-size: cover;
+}
+.food_list_mini_box:nth-child(5) {
+    background: url("https://images.pexels.com/photos/10489231/pexels-photo-10489231.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-size: cover;
+}
+.food_list_mini_box:nth-child(6) {
+    background: url("https://images.pexels.com/photos/1639557/pexels-photo-1639557.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-size: cover;
+}
+.food_list_mini_box:nth-child(7) {
+    background: url("https://images.pexels.com/photos/2119758/pexels-photo-2119758.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-size: cover;
+}
+.food_list_mini_box:nth-child(8) {
+    background: url("https://images.pexels.com/photos/1633525/pexels-photo-1633525.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-size: cover;
+}
+.food_list_mini_box:nth-child(9) {
+    background: url("https://images.pexels.com/photos/2955819/pexels-photo-2955819.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-size: cover;
+}
+.food_list_mini_box:nth-child(10) {
+    background: url("https://images.pexels.com/photos/6543757/pexels-photo-6543757.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-size: cover;
+}
+.food_list_mini_box:nth-child(11) {
+    background: url("https://images.pexels.com/photos/4871174/pexels-photo-4871174.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-size: cover;
+}
+.food_list_mini_box:nth-child(12) {
+    background: url("https://images.pexels.com/photos/9283102/pexels-photo-9283102.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-size: cover;
+}
+.food_list_mini_box:nth-child(13) {
+    background: url("https://images.pexels.com/photos/3026804/pexels-photo-3026804.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-size: cover;
+}
+.food_list_mini_box:nth-child(14) {
+    background: url("https://images.pexels.com/photos/4421616/pexels-photo-4421616.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-size: cover;
+}
+.food_list_mini_box:nth-child(15) {
+    background: url("https://images.pexels.com/photos/291528/pexels-photo-291528.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-size: cover;
+}
+.food_list_mini_box:nth-child(16) {
+    background: url("https://images.pexels.com/photos/12407065/pexels-photo-12407065.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-size: cover;
+}
+
+
 /*clothes*/
 .clothes_list {
     width: 100%;
@@ -134,7 +242,6 @@ section {
     width: 1330px;
     height: 1220px;
     margin: 10px;
-    /*background-color: deepskyblue;*/
     display: flex;
     flex-wrap: wrap;
 }
@@ -184,7 +291,7 @@ section {
     transition: 1s;
 }
 
-/*clothes*/
+
 
 .top_brands {
     width: 1200px;
@@ -367,3 +474,67 @@ button:hover{
 .v_1:hover.v_1 button{
     top: 230px
 }
+
+
+
+@keyframes run {
+    0% {
+        transform: rotate(0deg);
+    }
+    12.5% {
+        transform: rotate(45deg);
+    }
+    25% {
+        transform: rotate(90deg);
+    }
+    37.5% {
+        transform: rotate(135deg);
+    }
+    50% {
+        transform: rotate(180deg);
+    }
+    62.5% {
+        transform: rotate(225deg);
+    }
+    75% {
+        transform: rotate(270deg);
+    }
+    87.5% {
+        transform: rotate(315deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+.techniques{
+    width: 1200px;
+    height: 400px;
+    background: darkgoldenrod;
+    position: relative;
+    overflow: hidden;
+}
+.big{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.from{
+    display: flex;
+    animation-name: top1;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+    overflow: hidden;
+}
+@keyframes top1 {
+    from{
+        margin-left: 1200px;
+        color: blueviolet;
+    }
+    to{
+        margin-left: 0;
+    }
+}
+
+
