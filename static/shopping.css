@@ -43,13 +43,14 @@ section {
 
 .icon2 img {
     width: 300px;
-}
-
-.icon2 img:hover {
-    animation-name: run;
+     animation-name: run;
     animation-duration: 2s;
     animation-timing-function: linear;
     animation-iteration-count: 1;
+}
+
+.icon2 img:hover {
+
 }
 
 .icon2 {
@@ -286,8 +287,83 @@ button:hover{
 }
 .box1:hover.box1 h5{
     margin-left: 0;
-
+}
+/*techniques*/
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
+.t_ch{
+    width: 1200px;
+    height: 400px;
+    background: #e57e5f;
+    border-radius: 10px;
+}
+.v_r img{
+    width: 30px;
+    height: 30px;
+}
+.v_r{
+    width: 70px;
+    height: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 
+}
+.v_1{
+    width: 200px;
+    height: 300px;
+    background: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
 
+}
+.t_v{
+    display: flex;
+    justify-content: space-around;
+}
+.t_v h4{
+    color: #3a3a3a;
+}
+.t_v h5{
+    color: #3a3a3a;
+    position: absolute;
+    transition: 3s;
+    margin-left: 600px;
+    top: 0;
+}
+.v_1 img{
+    position: absolute;
+    width: 180px;
+    height: 120px;
+    top: -600px;
+    transition: 1s;
+}
+.v_1:hover.v_1 img{
+    top: 100px;
+}
+.v_1:hover.v_1 h5{
+    margin-left: 0;
+}
+.t_v button{
+    width: 100px;
+    height: 30px;
+    background: black;
+    border-radius: 5px;
+    top: 600px;
+    transition: 1s;
+    position: absolute;
+}
+.v_1:hover.v_1 button{
+    top: 230px
+}
