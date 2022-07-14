@@ -6,15 +6,13 @@
 
 button {
     border-radius: 20px;
-    background-color: #5a5959;
+    background-color: #ffffff00;
     backdrop-filter: blur(6px);
-    width: 100px;
+    width: 240px;
     height: 22px;
     margin: 5px;
     margin-top: 158px;
-    border: none;
-
-
+    border: groove;
 }
 
 .absolute_text {
@@ -93,7 +91,7 @@ section {
 }
 
 
-
+/*food*/
 .food_list {
     width: 100%;
     height: 1230px;
@@ -104,7 +102,6 @@ section {
     width: 1330px;
     height: 1220px;
     margin: 10px;
-    /*background-color: deepskyblue;*/
     display: flex;
     flex-wrap: wrap;
 }
@@ -125,6 +122,13 @@ section {
 
 .food_list_mini_box p {
     text-align: center;
+}
+
+.food_list_mini_box{
+    animation-name: food1;
+    animation-duration: 3.5s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: 1;
 }
 
 .food_list_mini_box:first-child {
@@ -233,7 +237,6 @@ section {
     width: 1330px;
     height: 1220px;
     margin: 10px;
-    /*background-color: deepskyblue;*/
     display: flex;
     flex-wrap: wrap;
 }
@@ -251,7 +254,51 @@ section {
     box-shadow: 3px 3px 3px 3px #52ead8;
     transition: 1s;
 }
+.techniques{
+    width: 1200px;
+    height: 400px;
+    background: darkgoldenrod;
+    position: relative;
+    overflow: hidden;
+}
+.big{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.from{
+    display: flex;
+    animation-name: top1;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+    overflow: hidden;
+}
 
+
+/*packet*/
+.packet_list img {
+    width: 300px;
+    
+}
+@keyframes top1 {
+    from{
+        margin-left: 1200px;
+        color: blueviolet;
+    }
+    to{
+        margin-left: 0;
+    }
+}
+@keyframes food1 {
+    from{
+        margin-left: 1330px;
+    }
+    to{
+        margin-left: 30px;
+    }
+}
 
 
 @keyframes run {
@@ -283,34 +330,3 @@ section {
         transform: rotate(360deg);
     }
 }
-.techniques{
-    width: 1200px;
-    height: 400px;
-    background: darkgoldenrod;
-    position: relative;
-    overflow: hidden;
-}
-.big{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-.from{
-    display: flex;
-    animation-name: top1;
-    animation-duration: 2s;
-    animation-timing-function: linear;
-    animation-iteration-count: 1;
-    overflow: hidden;
-}
-@keyframes top1 {
-    from{
-        margin-left: 1200px;
-        color: blueviolet;
-    }
-    to{
-        margin-left: 0;
-    }
-}
-
