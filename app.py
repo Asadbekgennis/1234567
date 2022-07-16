@@ -5,8 +5,6 @@ app = Flask(__name__)
 
 @app.route('/')
 def home():
-    print(True)
-    print(False)
     return render_template('Home.html')
 
 
