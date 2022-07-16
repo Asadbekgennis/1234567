@@ -4,10 +4,54 @@
     Packet
 {% endblock %}
 {% block body %}
+<div class="packet">
     <div class="packet_list">
-        <img src="../templates/icons/money-check-dollar-solid.svg" alt="">
-        <div class="packet_list_mini">
-
+        <div class="packet_list_box">
+            <h3>E-mile</h3>
+            <input type="email">
+        </div>
+        <div class="packet_list_box">
+            <h3>Phone number</h3>
+            <input type="number">
+        </div>
+        <div class="packet_list_box">
+            <h3>Location</h3>
+            <input type="text">
+        </div>
+        <div class="packet_list_box">
+            <h3>Card number</h3>
+            <input type="number">
+        </div>
+        <div class="packet_list_box">
+            <h3>Card password</h3>
+            <input type="password">
+        </div>
+        <div class="packet_list_box1">
+            <button>Submit</button>
         </div>
     </div>
+</div>
+
+
+
+
+
+
+
+    <section class="section2">
+
+        <div class="section2_list">
+            <h2>You can find us here</h2>
+        </div>
+        <div class="section2_list">
+            <img src="../static/icons/map-location-dot-solid.svg" alt="">
+        </div>
+
+    </section>
+    <div class="section2_list.box">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d2518609.8170519094!2d68.71279169761007!3d40.75472691039372!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e1!3m2!1sru!2s!4v1657797798698!5m2!1sru!2s"
+                width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+
 {% endblock %}

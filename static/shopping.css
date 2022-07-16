@@ -4,15 +4,16 @@
     color: white;
 }
 
-button {
+.food_list_mini_box button {
     border-radius: 20px;
     background-color: #ffffff00;
-    backdrop-filter: blur(6px);
+    backdrop-filter: blur(1px);
     width: 240px;
     height: 22px;
+    border: groove;
     margin: 5px;
     margin-top: 158px;
-    border: groove;
+
 }
 
 .absolute_text {
@@ -43,7 +44,6 @@ h1:hover {
     font-family: cursive;
 }
 
-
 a {
     text-decoration: none;
 }
@@ -60,7 +60,7 @@ a:hover {
 
 section {
     background: #c9a242;
-    height: 950px;
+    /*height: 950px;*/
 }
 
 .icon img {
@@ -71,11 +71,11 @@ section {
 .icon2 img {
     width: 300px;
 
-     animation-name: run;
+    animation-name: run;
 
 }
 
-.icon2 img:hover {
+.icon2 img {
     animation-name: run;
     animation-duration: 2s;
     animation-timing-function: linear;
@@ -153,7 +153,7 @@ section {
 }
 
 .food_list_mini_box:hover {
-    box-shadow: 3px 3px 3px 3px #52ead8;
+    box-shadow: 3px 3px 3px 3px rgba(253, 255, 54, 0.34);
     transition: 1s;
 }
 
@@ -162,73 +162,96 @@ section {
     text-align: center;
 }
 
-.food_list_mini_box{
+.food_list_mini_box {
     animation-name: food1;
     animation-duration: 3.5s;
     animation-timing-function: ease-in-out;
     animation-iteration-count: 1;
 }
 
+.food_list_mini_box button:active {
+    width: 200px;
+    height: 22px;
+    margin: 25px;
+    margin-top: 158px;
+
+}
+
 .food_list_mini_box:first-child {
     background: url("https://images.pexels.com/photos/1653877/pexels-photo-1653877.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
     background-size: cover;
 }
+
 .food_list_mini_box:nth-child(2) {
     background: url("https://images.pexels.com/photos/4661985/pexels-photo-4661985.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
     background-size: cover;
 }
+
 .food_list_mini_box:nth-child(3) {
     background: url("https://images.pexels.com/photos/1351238/pexels-photo-1351238.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
     background-size: cover;
 }
+
 .food_list_mini_box:nth-child(4) {
     background: url("https://images.pexels.com/photos/1279330/pexels-photo-1279330.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
     background-size: cover;
 }
+
 .food_list_mini_box:nth-child(5) {
     background: url("https://images.pexels.com/photos/10489231/pexels-photo-10489231.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
     background-size: cover;
 }
+
 .food_list_mini_box:nth-child(6) {
     background: url("https://images.pexels.com/photos/1639557/pexels-photo-1639557.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
     background-size: cover;
 }
+
 .food_list_mini_box:nth-child(7) {
     background: url("https://images.pexels.com/photos/2119758/pexels-photo-2119758.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
     background-size: cover;
 }
+
 .food_list_mini_box:nth-child(8) {
     background: url("https://images.pexels.com/photos/1633525/pexels-photo-1633525.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
     background-size: cover;
 }
+
 .food_list_mini_box:nth-child(9) {
     background: url("https://images.pexels.com/photos/2955819/pexels-photo-2955819.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
     background-size: cover;
 }
+
 .food_list_mini_box:nth-child(10) {
     background: url("https://images.pexels.com/photos/6543757/pexels-photo-6543757.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
     background-size: cover;
 }
+
 .food_list_mini_box:nth-child(11) {
     background: url("https://images.pexels.com/photos/4871174/pexels-photo-4871174.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
     background-size: cover;
 }
+
 .food_list_mini_box:nth-child(12) {
     background: url("https://images.pexels.com/photos/9283102/pexels-photo-9283102.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
     background-size: cover;
 }
+
 .food_list_mini_box:nth-child(13) {
     background: url("https://images.pexels.com/photos/3026804/pexels-photo-3026804.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
     background-size: cover;
 }
+
 .food_list_mini_box:nth-child(14) {
     background: url("https://images.pexels.com/photos/4421616/pexels-photo-4421616.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
     background-size: cover;
 }
+
 .food_list_mini_box:nth-child(15) {
     background: url("https://images.pexels.com/photos/291528/pexels-photo-291528.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
     background-size: cover;
 }
+
 .food_list_mini_box:nth-child(16) {
     background: url("https://images.pexels.com/photos/12407065/pexels-photo-12407065.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
     background-size: cover;
@@ -293,48 +316,102 @@ section {
     box-shadow: 3px 3px 3px 3px #52ead8;
     transition: 1s;
 }
-.techniques{
+
+.techniques {
     width: 1200px;
     height: 400px;
     background: darkgoldenrod;
     position: relative;
     overflow: hidden;
 }
-.big{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-.from{
-    display: flex;
-    animation-name: top1;
-    animation-duration: 2s;
-    animation-timing-function: linear;
-    animation-iteration-count: 1;
-    overflow: hidden;
-}
-
 
 /*packet*/
-.packet_list img {
-    width: 300px;
-    
+.section2 {
+    display: flex;
+    justify-content: center;
 }
+
+.section2 img {
+    width: 35px;
+
+}
+
+.packet {
+    display: flex;
+    justify-content: center;
+    background: url("https://images.pexels.com/photos/220357/pexels-photo-220357.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1") center center/cover;
+}
+
+.packet_list {
+    width: 500px;
+    height: 600px;
+    border-radius: 20px;
+    background-color: #0986e940;
+    margin: 10px;
+}
+
+.packet_list_box {
+    width: 100%;
+    height: 80px;
+    text-align: center;
+}
+
+.packet_list_box1 {
+    width: 100%;
+    height: 80px;
+    text-align: center;
+}
+
+.packet_list_box1 button {
+    border-radius: 20px;
+    background-color: #ffffff00;
+    backdrop-filter: blur(1px);
+    width: 240px;
+    height: 22px;
+    border: groove;
+}
+
+.packet_list_box1 button:active {
+    backdrop-filter: blur(6px);
+}
+
+.packet_list_box:hover {
+    background-color: rgba(20, 219, 213, 0.45);
+    border-radius: 20px;
+}
+
+.packet_list_box h3 {
+    color: white;
+}
+
+.packet_list_box input {
+    text-align: center;
+    font-size: 20px;
+    border: white 2px groove;
+    width: 400px;
+    height: 22px;
+    border-radius: 20px;
+    background-color: rgba(240, 248, 255, 0);
+    backdrop-filter: blur(2px);
+    color: white;
+}
+
+
 @keyframes top1 {
-    from{
+    from {
         margin-left: 1200px;
         color: blueviolet;
     }
-    to{
+    to {
         margin-left: 0;
     }
 }
+
 @keyframes food1 {
-    from{
+    from {
         margin-left: 1330px;
     }
-    to{
+    to {
         margin-left: 30px;
     }
 }
@@ -411,7 +488,8 @@ section {
     margin-top: 40px;
     transition: 1s;
 }
-.box1 button{
+
+.box1 button {
     width: 100px;
     height: 30px;
     background: darkgoldenrod;
@@ -421,17 +499,20 @@ section {
     border-radius: 15px;
     border: none;
     cursor: pointer;
-     transition: 1s;
+    transition: 1s;
 }
-.box1:hover.box1 button{
+
+.box1:hover.box1 button {
     top: 80px;
 }
-button:hover{
+
+.box1 button:hover {
     width: 90px;
     height: 20px;
     padding: 5px;
 }
-.box1 h5{
+
+.box1 h5 {
     color: darkred;
     top: 0;
     margin-left: 600px;
@@ -439,28 +520,32 @@ button:hover{
     transition: 3s;
     position: absolute;
 }
-.box1:hover.box1 h5{
+
+.box1:hover.box1 h5 {
     margin-left: 0;
 }
+
 /*techniques*/
-.container{
+.container {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
 
-.t_ch{
+.t_ch {
     width: 1200px;
     height: 400px;
     background: #e57e5f;
     border-radius: 10px;
 }
-.v_r img{
+
+.v_r img {
     width: 30px;
     height: 30px;
 }
-.v_r{
+
+.v_r {
     width: 70px;
     height: 70px;
     display: flex;
@@ -469,7 +554,8 @@ button:hover{
     justify-content: center;
 
 }
-.v_1{
+
+.v_1 {
     width: 200px;
     height: 300px;
     background: white;
@@ -482,34 +568,41 @@ button:hover{
     overflow: hidden;
 
 }
-.t_v{
+
+.t_v {
     display: flex;
     justify-content: space-around;
 }
-.t_v h4{
+
+.t_v h4 {
     color: #3a3a3a;
 }
-.t_v h5{
+
+.t_v h5 {
     color: #3a3a3a;
     position: absolute;
     transition: 3s;
     margin-left: 600px;
     top: 0;
 }
-.v_1 img{
+
+.v_1 img {
     position: absolute;
     width: 180px;
     height: 120px;
     top: -600px;
     transition: 1s;
 }
-.v_1:hover.v_1 img{
+
+.v_1:hover.v_1 img {
     top: 100px;
 }
-.v_1:hover.v_1 h5{
+
+.v_1:hover.v_1 h5 {
     margin-left: 0;
 }
-.t_v button{
+
+.t_v button {
     width: 100px;
     height: 30px;
     background: black;
@@ -518,56 +611,58 @@ button:hover{
     transition: 1s;
     position: absolute;
 }
-.v_1:hover.v_1 button{
+
+.v_1:hover.v_1 button {
     top: 230px
 }
 
 
+/*@keyframes run {*/
+/*    0% {*/
+/*        transform: rotate(0deg);*/
+/*    }*/
+/*    12.5% {*/
+/*        transform: rotate(45deg);*/
+/*    }*/
+/*    25% {*/
+/*        transform: rotate(90deg);*/
+/*    }*/
+/*    37.5% {*/
+/*        transform: rotate(135deg);*/
+/*    }*/
+/*    50% {*/
+/*        transform: rotate(180deg);*/
+/*    }*/
+/*    62.5% {*/
+/*        transform: rotate(225deg);*/
+/*    }*/
+/*    75% {*/
+/*        transform: rotate(270deg);*/
+/*    }*/
+/*    87.5% {*/
+/*        transform: rotate(315deg);*/
+/*    }*/
+/*    100% {*/
+/*        transform: rotate(360deg);*/
+/*    }*/
+/*}*/
 
-@keyframes run {
-    0% {
-        transform: rotate(0deg);
-    }
-    12.5% {
-        transform: rotate(45deg);
-    }
-    25% {
-        transform: rotate(90deg);
-    }
-    37.5% {
-        transform: rotate(135deg);
-    }
-    50% {
-        transform: rotate(180deg);
-    }
-    62.5% {
-        transform: rotate(225deg);
-    }
-    75% {
-        transform: rotate(270deg);
-    }
-    87.5% {
-        transform: rotate(315deg);
-    }
-    100% {
-        transform: rotate(360deg);
-    }
-}
-
-.techniques{
+.techniques {
     width: 1200px;
     height: 400px;
     background: darkgoldenrod;
     position: relative;
     overflow: hidden;
 }
-.big{
+
+.big {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
-.from{
+
+.from {
     display: flex;
     animation-name: top1;
     animation-duration: 2s;
@@ -575,12 +670,13 @@ button:hover{
     animation-iteration-count: 1;
     overflow: hidden;
 }
+
 @keyframes top1 {
-    from{
+    from {
         margin-left: 1200px;
         color: blueviolet;
     }
-    to{
+    to {
         margin-left: 0;
     }
 }
