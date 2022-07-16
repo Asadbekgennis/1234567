@@ -10,8 +10,11 @@
     backdrop-filter: blur(1px);
     width: 240px;
     height: 22px;
+
     border: groove;
     margin: 5px;
+
+
     margin-top: 158px;
 
 }
@@ -71,15 +74,21 @@ section {
 .icon2 img {
     width: 300px;
 
+
     animation-name: run;
 
 }
 
 .icon2 img {
-    animation-name: run;
+= = = = = = = >>> >>> > f380e5ae845ff76b5be1aa22ed15d707ea4db870 animation-name: run;
     animation-duration: 2s;
     animation-timing-function: linear;
     animation-iteration-count: 1;
+
+}
+
+.icon2 img:hover {
+
 }
 
 
@@ -530,7 +539,9 @@ section {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
+    height: 800px;
+
 }
 
 .t_ch {
@@ -538,6 +549,7 @@ section {
     height: 400px;
     background: #e57e5f;
     border-radius: 10px;
+    margin-top: 30px;
 }
 
 .v_r img {
@@ -572,6 +584,10 @@ section {
 .t_v {
     display: flex;
     justify-content: space-around;
+}
+
+
+.t_v h4 {
 }
 
 .t_v h4 {
@@ -610,10 +626,17 @@ section {
     top: 600px;
     transition: 1s;
     position: absolute;
+    border: none;
+}
+
+
+.v_1:hover .v_1 button {
+    top: 230px;
 }
 
 .v_1:hover.v_1 button {
-    top: 230px
+    top: 80px
+
 }
 
 
