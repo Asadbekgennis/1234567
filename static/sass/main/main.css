@@ -148,4 +148,196 @@
   top: 0;
 }
 
+.div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.section1 h1 {
+  text-align: center;
+}
+.section1_food {
+  width: 1180px;
+  height: 40px;
+  padding: 10px;
+  background-color: #3573a3;
+  display: flex;
+  justify-content: space-around;
+}
+.section1_food a {
+  text-decoration: none;
+  font-size: 16px;
+  color: white;
+}
+
+.section2 {
+  width: 1200px;
+}
+.section2_food {
+  background: url("/static/img/shop_food.png");
+  background-size: cover;
+  height: 100vh;
+}
+
+.section3 h1 {
+  text-align: center;
+}
+.section3_main {
+  width: 1341px;
+  height: 400px;
+  background-color: white;
+  display: flex;
+  justify-content: space-around;
+}
+.section3_main_mini {
+  width: 172px;
+}
+.section3_main_mini img {
+  width: 172px;
+  height: 135px;
+}
+.section3_main_mini h3 {
+  text-align: center;
+}
+.section3_main_mini button {
+  margin-left: 53px;
+}
+
+button {
+  width: 70px;
+  height: 25px;
+  background-color: #3573a3;
+  border: none;
+}
+
+.div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.section1 h1 {
+  text-align: center;
+}
+.section1_clothes {
+  width: 1180px;
+  height: 40px;
+  padding: 10px;
+  background-color: #3573a3;
+  display: flex;
+  justify-content: space-around;
+}
+.section1_clothes a {
+  text-decoration: none;
+  font-size: 16px;
+  color: white;
+}
+
+.section2 {
+  width: 1200px;
+}
+.section2_clothes {
+  background: url("/static/img/shop_clothes.png");
+  background-size: cover;
+  height: 100vh;
+}
+
+.section3 h1 {
+  text-align: center;
+}
+.section3_main {
+  width: 1341px;
+  height: 400px;
+  background-color: white;
+  display: flex;
+  justify-content: space-around;
+}
+.section3_main_mini {
+  width: 172px;
+}
+.section3_main_mini img {
+  width: 172px;
+  height: 135px;
+}
+.section3_main_mini h3 {
+  text-align: center;
+}
+.section3_main_mini button {
+  margin-left: 53px;
+}
+
+button {
+  width: 70px;
+  height: 25px;
+  background-color: #3573a3;
+  border: none;
+}
+
+.div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.section1 h1 {
+  text-align: center;
+}
+.section1_techniques {
+  width: 1180px;
+  height: 40px;
+  padding: 10px;
+  background-color: #3573a3;
+  display: flex;
+  justify-content: space-around;
+}
+.section1_techniques a {
+  text-decoration: none;
+  font-size: 16px;
+  color: white;
+}
+
+.section2 {
+  width: 1200px;
+}
+.section2_techniques {
+  background: url("/static/img/shop_techniques.jpg");
+  background-size: cover;
+  height: 100vh;
+}
+
+.section3 h1 {
+  text-align: center;
+}
+.section3_main {
+  width: 1341px;
+  height: 400px;
+  background-color: white;
+  display: flex;
+  justify-content: space-around;
+}
+.section3_main_mini {
+  width: 172px;
+}
+.section3_main_mini img {
+  width: 172px;
+  height: 135px;
+}
+.section3_main_mini h3 {
+  text-align: center;
+}
+.section3_main_mini button {
+  margin-left: 53px;
+}
+
+button {
+  width: 70px;
+  height: 25px;
+  background-color: #3573a3;
+  border: none;
+}
+
 /*# sourceMappingURL=main.css.map */
