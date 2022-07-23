@@ -5,5 +5,4 @@ admin boolean not null
 );
 create table (
 id integer primary key autoincrement,
-expert_id integer not null
 );
