@@ -1,17 +1,151 @@
-/* Error: Can't find stylesheet to import.
- *   ,
- * 2 | @import "kirish"
- *   |         ^^^^^^^^
- *   '
- *   main.sass 2:9  root stylesheet */
-
-body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
-  white-space: pre;
-  display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
-  content: "Error: Can't find stylesheet to import.\a   \2577 \a 2 \2502  @import \"kirish\"\a   \2502          ^^^^^^^^\a   \2575 \a   main.sass 2:9  root stylesheet";
+.main {
+  width: 100%;
+  height: 60px;
+  background-color: #518990;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
+.main_container {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  margin-top: 100px;
+}
+.main_img {
+  width: 300px;
+  height: 400px;
+}
+.main_footer {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.main_footer h1 {
+  margin-right: 269px;
+  color: #518990;
+}
+.main_footer p {
+  color: #5f5c5c;
+}
+.main_footer button {
+  width: 116px;
+  height: 27px;
+  background-color: #518990;
+  border: none;
+  border-radius: 5px;
+  margin-left: 250px;
+  margin-top: 50px;
+}
+
+.main a {
+  text-decoration: none;
+  color: white;
+}
+
+.main h1 {
+  color: white;
+}
+
+.m_img {
+  width: 489px;
+  height: 400px;
+}
+
+.packet_menu {
+  width: 100%;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #518990;
+  margin-top: 20px;
+}
+
+.packet_menu h1 {
+  color: white;
+}
+
+.big_div {
+  margin-top: 20px;
+  margin-left: 172px;
+  width: 1000px;
+}
+
+.packet {
+  display: flex;
+  width: 1000px;
+  justify-content: space-around;
+}
+.packet_orders {
+  width: 600px;
+  height: 200px;
+  background-color: #b3b1b1;
+}
+.packet_orders h4 {
+  margin-top: -2px;
+}
+.packet_container_balance {
+  width: 300px;
+  height: 60px;
+  background-color: #b3b1b1;
+}
+.packet_container_balance h5 {
+  margin: 0;
+  top: 0;
+}
+.packet_container_expenses {
+  width: 300px;
+  height: 118px;
+  background: #b3b1b1;
+}
+
+.chz {
+  width: 580px;
+  height: 2px;
+  background-color: black;
+  margin-left: 20px;
+  margin-top: -5px;
+}
+
+.chz2 {
+  width: 290px;
+  height: 2px;
+  background-color: black;
+  margin-left: 10px;
+}
+
+.packet2 {
+  display: flex;
+  width: 1000px;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+.packet2_facts_number {
+  width: 600px;
+  height: 60px;
+  background-color: #b3b1b1;
+  border: none;
+}
+.packet2_facts_variants {
+  width: 600px;
+  height: 50px;
+  margin-top: 88px;
+  justify-content: space-around;
+}
+.packet2_facts_variants img {
+  height: 50px;
+}
+.packet2_cards {
+  width: 300px;
+  height: 200px;
+  background-color: #b3b1b1;
+}
+.packet2_cards h5 {
+  margin: 0;
+  top: 0;
+}
+
+/*# sourceMappingURL=main.css.map */

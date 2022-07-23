@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Shopping</title>
-    <link rel="stylesheet" href="../static/shopping.css">
+    <link rel="stylesheet" href="../static/sass/main/main.min.css">
 </head>
 <body>
 <header>
@@ -16,16 +16,8 @@
         <h4><a href="{{ url_for('packet') }}">Packet</a></h4>
     </div>
 </header>
-<section class="section1">
     {% block body %}
-        <div class="big_div">
-        <div class="main_logo">
-            <img src="" alt="">
-        </div>
-        </div>
+
     {% endblock %}
-</section>
-
-
 </body>
 </html>
